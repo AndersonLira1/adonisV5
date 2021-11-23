@@ -28,3 +28,5 @@ Route.get('/', async () => {
 Route.get('/ping', () => {
   return { pong: true }
 })
+
+Route.post('login', 'AuthController.login')
